@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote for Candidate 1</title>
+</head>
+<body>
+    <h1>Vote for Candidate 1</h1>
+    <form action="/vote" method="POST">
+        <label for="email">email:</label>
+        <input type="text" id="email" name="email" required>
+        <br>
+        <label>
+            <input type="radio" name="candidate" value="candidate1">
+            Candidate 1
+        </label>
+        <br>
+        <!-- You can add more candidates if needed --> 
+        <label>
+            <input type="radio" name="candidate" value="candidate2">
+            Candidate 2
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="candidate" value="candidate3">
+            Candidate 3
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="candidate" value="candidate4">
+            Candidate 4
+        </label>
+        <br>
+        <button type="submit">Vote</button>
+    </form>
+</body>
+</html>

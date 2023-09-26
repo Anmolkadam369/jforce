@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/voteCount" method="POST">
+        
+        <label>
+            <input type="radio" name="candidate" value="candidate1">
+            Candidate 1
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="candidate" value="candidate2">
+            Candidate 2
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="candidate" value="candidate3">
+            Candidate 3
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="candidate" value="candidate4">
+            Candidate 4
+        </label>
+        <br>
+        
+        <button type="submit">search</button>
+        
+    </form>
+    <form action="/logout" method="GET">
+    <button type="button" onclick="location.href='/admin'">logout</button>
+</body>
+</html>
